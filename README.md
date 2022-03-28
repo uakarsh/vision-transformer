@@ -1,5 +1,7 @@
 # Vision Transformer (ViT) - PyTorch
 
+![Vision Transformer Architecture](images/vision-transformer.png)
+
 Implementation of [AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf), a transformer architecture for the task of image classification tasks.
 
 When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks(ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train
