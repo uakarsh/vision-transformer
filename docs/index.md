@@ -1,10 +1,10 @@
 # DocFormer - PyTorch
 
-![docformer architecture](images/docformer-architecture.png)
+![Vision Transformer Architecture](images/vision-transformer.png)
 
-Implementation of [DocFormer: End-to-End Transformer for Document Understanding](https://arxiv.org/abs/2106.11539), a multi-modal transformer based architecture for the task of Visual Document Understanding (VDU) 📄📄📄.
+Implementation of [AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf), a transformer architecture for the task of image classification tasks.
 
-The official implementation was not released by the authors.
+The official implementation is [here](https://github.com/google-research/vision_transformer)
 
 ## Install
 
@@ -20,12 +20,32 @@ See `examples` for usage.
 ## Citations
 
 ```bibtex
-@misc{appalaraju2021docformer,
-    title   = {DocFormer: End-to-End Transformer for Document Understanding},
-    author  = {Srikar Appalaraju and Bhavan Jasani and Bhargava Urala Kota and Yusheng Xie and R. Manmatha},
-    year    = {2021},
-    eprint  = {2106.11539},
-    archivePrefix = {arXiv},
-    primaryClass = {cs.CV}
+@article{dosovitskiy2020vit,
+  title={An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  author={Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and  Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and Uszkoreit, Jakob and Houlsby, Neil},
+  journal={ICLR},
+  year={2021}
+}
+
+@article{tolstikhin2021mixer,
+  title={MLP-Mixer: An all-MLP Architecture for Vision},
+  author={Tolstikhin, Ilya and Houlsby, Neil and Kolesnikov, Alexander and Beyer, Lucas and Zhai, Xiaohua and Unterthiner, Thomas and Yung, Jessica and Steiner, Andreas and Keysers, Daniel and Uszkoreit, Jakob and Lucic, Mario and Dosovitskiy, Alexey},
+  journal={arXiv preprint arXiv:2105.01601},
+  year={2021}
+}
+
+@article{steiner2021augreg,
+  title={How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers},
+  author={Steiner, Andreas and Kolesnikov, Alexander and and Zhai, Xiaohua and Wightman, Ross and Uszkoreit, Jakob and Beyer, Lucas},
+  journal={arXiv preprint arXiv:2106.10270},
+  year={2021}
+}
+
+@article{chen2021outperform,
+  title={When Vision Transformers Outperform ResNets without Pretraining or Strong Data Augmentations}, 
+  author={Chen, Xiangning and Hsieh, Cho-Jui and Gong, Boqing},
+  journal={arXiv preprint arXiv:2106.01548},
+  year={2021},
 }
 ```
+
